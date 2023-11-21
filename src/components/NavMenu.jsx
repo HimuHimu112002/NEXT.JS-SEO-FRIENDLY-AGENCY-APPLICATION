@@ -4,7 +4,7 @@ import React from 'react'
 const NavMenu = () => {
   return (
     <>
-        <nav className="navbar navbar-expand-lg shadow-sm">
+        <nav className="navbar navbar-expand-lg shadow-sm ">
             <div className="container">
                 <button
                 className="navbar-toggler"

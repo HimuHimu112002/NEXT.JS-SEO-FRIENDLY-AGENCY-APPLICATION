@@ -1,0 +1,42 @@
+.heroSection__bg__color{
+    background-color: #F9FAFB;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__main__section{
+    background-color: white;
+    padding: 90px 30px;
+}
+
+.form-control:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #047857 !important;
+}
+
+.contact__form__button{
+    background-color: #047857 !important;
+    width: 100%;
+    color: white !important;
+}
+
+.hero__left__content{
+    padding-top: 100px;
+    width: 600px;
+}
+
+.hero__left__content--discription{
+    padding: 25px 0px;
+}
+
+.hero__left__content--button2, .hero__left__content--button1{
+    background-color: #047857 !important;
+    color: white !important;
+    margin-left: 20px;
+}
+.hero__left__content--button1{
+    margin-left: 0px;
+}

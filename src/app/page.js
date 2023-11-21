@@ -1,11 +1,9 @@
-import NavMenu from "@/components/NavMenu";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
     <>
-      {/* <NavMenu/> */}
-      <h1>Hello</h1>
-      <button type="button" class="btn btn-primary">Primary</button>
+      <Hero/>
     </>
   )
 }
