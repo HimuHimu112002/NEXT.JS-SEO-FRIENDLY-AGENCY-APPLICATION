@@ -1,6 +1,10 @@
 .heroSection__bg__color{
-    background-color: #F9FAFB;
-    height: 85vh;
+    background-image: url('../../public/image/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +12,7 @@
 
 .contact__main__section{
     background-color: white;
-    padding: 90px 30px;
+    padding: 90px 50px;
 }
 
 .form-control:focus{
@@ -26,10 +30,12 @@
 .hero__left__content{
     padding-top: 100px;
     width: 600px;
+    color: white;
 }
 
 .hero__left__content--discription{
     padding: 25px 0px;
+
 }
 
 .hero__left__content--button2, .hero__left__content--button1{
@@ -39,4 +45,53 @@
 }
 .hero__left__content--button1{
     margin-left: 0px;
+}
+
+.build__problems__bg{
+    margin-top: 150px;
+    background-color: #F9FAFB;
+    padding: 80px 0px;
+}
+
+.build__problems__bg--subHeading{
+    font-weight: 700;
+    font-size: 58px;
+}
+
+.build__problems__bg--heading{
+    color: #047857;
+    font-weight: 600;
+}
+
+.build__problems__bg--content--main{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.feature__top__section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature__top__section--heading{
+    color: #047857;
+    font-weight: 600;
+}
+
+.feature__top__section--subHeading{
+    font-size: 45px;
+}
+
+.footer__bg{
+    background-color: black;
+    padding: 50px 0px;
+}
+
+.footer__menu{
+    color: white;
+}
+
+.footer__menu, .nav-item{
+    list-style-type: none;
+    padding: 10px 0px;
 }

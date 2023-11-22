@@ -15,7 +15,7 @@ const Hero = async () => {
     <div className='heroSection__bg__color'>
         <div className="container">
             <div className="row">
-                <div className="col md='6'">
+                <div className="col-10 col-md-6 col-lg-8">
                     <div className='hero__left__content'>
                         <h1>{data.title}</h1>
                         <p className='hero__left__content--discription'>{data.description}</p>
@@ -26,7 +26,7 @@ const Hero = async () => {
                         </div>
                     </div>
                 </div>
-                <div className="col md='6'">
+                <div className="col-10 col-md-6 col-lg-4 ">
                     <ContactForm/>
                 </div>
             </div>
