@@ -11,7 +11,7 @@ const Footer = () => {
                     <p className='text-white'>Trusted by brands all over the world</p>
                 </div>
                 <div className='col-6 col-lg-4 m-auto'>
-                <ul className="footer__menu">
+                    <ul className="footer__menu">
                         <li className="nav-item">
                             <Link href={'/'} className="nav-link active">
                                 Home

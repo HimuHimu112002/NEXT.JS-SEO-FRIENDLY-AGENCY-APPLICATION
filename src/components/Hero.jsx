@@ -7,11 +7,12 @@ async function getHeroData(){
         throw new Error("Hero List calling Fail")
     }
     return res.json()
+
 }
 
 const Hero = async () => {
   const data = await getHeroData()
-  return (
+return (
     <div className='heroSection__bg__color'>
         <div className="container">
             <div className="row">

@@ -29,8 +29,9 @@
 }
 
 .hero__left__content{
+    width: auto;
     padding-top: 100px;
-    width: 600px;
+    /* width: 600px; */
     color: white;
 }
 

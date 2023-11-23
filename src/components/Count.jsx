@@ -1,9 +1,7 @@
 import React from 'react'
-import {Api, getCount} from '../app/Api.js'
+import {getCount} from '../app/Api.js'
 
 const Count = async () => {
-    //const d = 'http://www.w3.org/2000/svg'
-
     const data = await getCount()
   return (
     <div className='container my-5'>
