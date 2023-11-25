@@ -17,7 +17,6 @@ const ContactForm = () => {
     console.log(FormValue)
 
     const FormSubmit=async (e) => {
-        toast.success("Form Submit Completed");
         e.preventDefault();
         if (FormValue.firstName.length === 0) {
             toast.error('First Name Required');
@@ -27,7 +26,7 @@ const ContactForm = () => {
             toast.error('Email Required');
         }else {
             const rawResponse = await axios.post('/api/contact',FormValue);
-
+            toast.success("Form Submit Completed");
         }
     }
   return (
